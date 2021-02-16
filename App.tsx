@@ -7,6 +7,8 @@ import { LoadAssets, StyleGuide } from "./src/components";
 import Episodes, { episodes } from "./src/Episodes";
 import Things from "./src/Things";
 
+console.disableYellowBox = true;
+
 const assets: number[] = [...episodes.map(episode => episode.icon)];
 
 const AppNavigator = createAppContainer(

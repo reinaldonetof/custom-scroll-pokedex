@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
 });
 
 export default () => {
-  const [search, setSearch] = useState(false);
+  const [search, setSearch] = useState(true);
   return (
     <View style={styles.container}>
       <Search />
